@@ -4,31 +4,51 @@
 <head>
     <meta charset="UTF-8">
     <title>Винтажное платье</title>
+    <link rel="stylesheet" href="../style/style.css" type="text/css">
 </head>
 
-<body>
-    <h1>Винтажное платье</h1>
-    <ul class="menu">
-        <li><a href="../index.html">Главная</a></li>
-        <li><a href="../catalog/product1.html">Вечернее платье</a></li>
-        <li><a href="../catalog/product3.html">Винтажное платье</a></li>
-        <li><a href="../contacts.html">Контакты</a></li>
-    </ul>
-    <hr>
-    <h3>Описание товара</h3>
-    <a href="../img/dress3.jpg" target="_blank"><img style="width: 330px;" src="../img/dress3.jpg" alt="Винтажное платье"></a>
-    <p>Женское винтажное платье без рукавов</p>
-    <h3>Характеристики товара</h3>
-    <ul>
-       <li>с&nbsp;принтом</li>
-       <li>из&nbsp;полиэстера</li>
-       <li>длина до колен</li>
-       <li>без рукавов</li>
-       <li>модель 1950-х</li>
-    </ul>
-    <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure esse molestias ea&nbsp;soluta officiis&nbsp;at, nesciunt nemo maiores consequatur quaerat repellat dolor voluptatem quas quasi accusamus neque eaque sint consectetur!</p> -->
-    <hr>
-    <p>Все права защищены&nbsp;&copy;</p>
+<body class="dress">
+    <div class="container">
+        <div class="header">
+            <img class="logo" src="../img/logo.jpg" alt="Интернет-магазин «Леди»">
+            <div class="wrapper">
+                <h1>Винтажное платье</h1>
+                <ul class="menu">
+                    <li><a href="../index.html">Главная</a></li>
+                    <li><a href="../catalog.html">Каталог</a></li>
+                    <li><a href="../contacts.html">Контакты</a></li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <div>
+            <h3>Описание товара</h3>
+            <div class="info">
+                <a href="../img/dress3.jpg" target="_blank"><img style="width: 330px;" src="../img/dress3.jpg" alt="Винтажное платье"></a>
+                <div class="info__description">
+                    <p class="description">Женское винтажное платье без рукавов</p>
+                    <input type="button" value="Купить">
+                </div>
+            </div>
+            <h3>Характеристики товара</h3>
+            <ul class="type">
+                <li>с&nbsp;принтом</li>
+                <li>из&nbsp;полиэстера</li>
+                <li>длина до&nbsp;колен</li>
+                <li>без рукавов</li>
+                <li>модель 1950-х</li>
+            </ul>
+            <h3>Подробное описание товара</h3>
+            <p class="full-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure esse molestias ea&nbsp;soluta officiis&nbsp;at, nesciunt nemo maiores consequatur quaerat repellat dolor voluptatem quas quasi accusamus neque eaque sint consectetur!</p>
+            <p class="full-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum mollitia commodi, sed itaque veritatis dignissimos dicta aspernatur culpa quos hic pariatur modi, et&nbsp;aliquam quas, neque laudantium vel exercitationem. Laborum?</p>
+        </div>
+        <hr>
+    </div>
+    <div class="footer">
+        <div class="container">
+            Все права защищены &copy;
+        </div>
+    </div>
 </body>
 
 </html>

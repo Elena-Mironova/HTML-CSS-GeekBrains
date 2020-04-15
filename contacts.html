@@ -4,35 +4,49 @@
 <head>
     <meta charset="UTF-8">
     <title>Контакты</title>
+    <link rel="stylesheet" href="style/style.css" type="text/css">
 </head>
 
 <body>
-    <h1>Контакты</h1>
-    <ul class="menu">
-        <li><a href="index.html">Главная</a></li>
-        <li><a href="catalog.html">Каталог</a></li>
-        <li><a href="contacts.html">Контакты</a></li>
-    </ul>
-    <hr>
-    <h3>Напишите нам</h3>
-    <form action="#">
-        Ваше имя <input type="text" placeholder="Ваше имя"><br>
-        Ваш e-mail <input type="text" placeholder="Укажите e-mail"><br>
-        Ваш телефон* <input type="text" placeholder="по желанию"><br>
-        Тема обращения <br>
-        Вопрос <input type="radio" name="theme" checked>
-        Доставка <input type="radio" name="theme"><br>
-        Ваше сообщение <input type="text" placeholder="не более 520 символов"><br>
-        <input type="submit" value="Отправить данные">
-        <input type="reset" value="Очистить">
-    </form>
-    <h3>Адрес</h3>
-    <p>Телефон: +1 000 100 90 90</p>
-    <p>Адрес: г. Санкт-Петербург, пр. Лиговский, д. 30, ТРЦ "Галерея", 6 этаж</p>
-    <p>e-mail: lady@bla-bla-bla.ru</p>
-    <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A3b668c0c755eb43228dc03578bd066d4c1ba9c3064eaac4216b4abfe05b409a7&amp;width=550&amp;height=500&amp;lang=ru_RU&amp;scroll=true"></script>
-    <hr>
-    <p>Все права защищены &copy;</p>
+    <div class="container">
+        <div class="header">
+            <img class="logo" src="img/logo.jpg" alt="Интернет-магазин «Леди»">
+            <div class="wrapper">
+            <h1>Контакты</h1>
+            <ul class="menu">
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="catalog.html">Каталог</a></li>
+                <li><a href="contacts.html">Контакты</a></li>
+            </ul>
+            </div>
+        </div>
+        <hr>
+        <div>
+            <h3>Напишите нам</h3>
+            <form action="#">
+                <label>Ваше имя <input type="text" placeholder="Ваше имя"></label>
+                <label>Ваш e-mail <input type="text" placeholder="Укажите e-mail"></label>
+                <label>Ваш телефон* <input type="text" placeholder="по желанию"></label>
+                Тема обращения <br>
+                <label>Вопрос <input type="radio" name="theme" checked></label>
+                <label>Доставка <input type="radio" name="theme"></label>
+                <label>Ваше сообщение <textarea placeholder="не более 520 символов"></textarea></label>
+                <input type="submit" value="Отправить данные">
+                <input type="reset" value="Очистить">
+            </form>
+            <h3>Адрес</h3>
+            <p>Телефон: +1&nbsp;000&nbsp;100 90 90</p>
+            <p>Адрес: г. Санкт-Петербург, пр. Лиговский, д.&nbsp;30, ТРЦ &laquo;Галерея&raquo;, 6&nbsp;этаж</p>
+            <p>e-mail: lady@bla-bla-bla.ru</p>
+            <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A3b668c0c755eb43228dc03578bd066d4c1ba9c3064eaac4216b4abfe05b409a7&amp;width=100%25&amp;height=374&amp;lang=ru_RU&amp;scroll=true"></script>
+        </div>
+        <hr>
+    </div>
+    <div class="footer">
+        <div class="container">
+            Все права защищены &copy;
+        </div>
+    </div>
 </body>
 
 </html>
