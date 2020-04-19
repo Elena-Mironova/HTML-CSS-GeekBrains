@@ -1,35 +1,63 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <title>Главная страница</title>
-    <link rel="stylesheet" href="style/style.css" type="text/css">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style-main.css">
+    <link rel="stylesheet" href="styles/style-product.css">
 </head>
 
 <body>
     <div class="container">
-        <div class="header">
-            <img class="logo" src="img/logo.jpg" alt="Интернет-магазин «Леди»">
-            <div class="wrapper">
-                <h1>Главная</h1>
-                <ul class="menu">
-                    <li><a href="#">Главная</a></li>
-                    <li><a href="catalog.html">Каталог</a></li>
-                    <li><a href="contacts.html">Контакты</a></li>
+        <div class="slider">
+            <div class="header clearfix">
+                <a href="#"><img src="img/logo.png" alt="logo"></a>
+                <ul class="menu clearfix">
+                    <li class="menu__item"><a href="#" class="menu__item-link menu__item-link--active">HOME</a></li>
+                    <li class="menu__item"><a href="#" class="menu__item-link">PRODUCTS</a></li>
+                    <li class="menu__item"><a href="#" class="menu__item-link">HISTORY</a></li>
+                    <li class="menu__item"><a href="#" class="menu__item-link">SHOWROOM</a></li>
+                    <li class="menu__item"><a href="#" class="menu__item-link">CONTACT</a></li>
+                    <li class="menu__item"><a href="#" class="menu__item-link"><img src="img/search.png" alt="search"></a></li>
                 </ul>
             </div>
+            <div class="slider__content">
+                <p class="slider__trending">TRENDING</p>
+                <h2 class="slider__title">Fishnet Chair</h2>
+                <p class="slider__text">Seat and back with upholstery made of cold cure foam. Steel frame, available in matt powder-coated black</p>
+                <a href="#" class="slider__button">Order Us</a>
+            </div>
+            <div class="slider__dots">
+                <a href="#" class="slider__circle"></a><a href="#" class="slider__circle slider__circle--active"></a><a href="#" class="slider__circle"></a>
+            </div>
         </div>
-        <hr>
-        <div>
-            <h2>Леди</h2>
-            <p>Добро пожаловать на&nbsp;сайт лучших платьев!</p>
-        </div>
-        <hr>
-    </div>
-    <div class="footer">
-        <div class="container">
-            Все права защищены &copy;
+        <div class="products">
+            <div class="products__header">
+                <a href="#" class="products__featured products__featured--active">Featured</a>
+                <a href="#" class="products__featured">New</a>
+                <a href="#" class="products__catalog">explore all</a>
+            </div>
+            <div class="products__list">
+                <div class="product">
+                    <img src="img/product-1.jpg" alt="product-1" class="product__img">
+                    <div class="product__hover">
+                        <a href="" class="product__arrow"></a>
+                        <div class="product__title">Fishnet Chair</div>
+                        <div class="product__text">Seat and back with upholstery made of cold cure foam</div>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="img/product-2.jpg" alt="product-2" class="product__img">
+                </div>
+                <div class="product">
+                    <img src="img/product-3.jpg" alt="product-3" class="product__img">
+                </div>
+                <div class="product">
+                    <img src="img/product-4.jpg" alt="product-4" class="product__img">
+                </div>
+            </div>
         </div>
     </div>
 </body>
