@@ -1,0 +1,28 @@
+.exclusives {
+    display: flex;
+    justify-content: space-between;
+}
+
+.exclusive-item {
+    width: 683px;
+    height: 683px;
+}
+
+.exclusive-2 {
+    display: flex;
+    padding: 120px 98px;
+    justify-content: space-between;
+}
+
+.exclusive-2-item {
+    width: 570px;
+    height: 570px;
+}
+
+.exclusive-2 .slider__content {
+    margin-top: 186px;
+}
+
+.exclusive-2 .slider__text {
+    width: 332px;
+}
